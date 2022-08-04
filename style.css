@@ -1,0 +1,18 @@
+h1:before {
+    content: "";
+    display: block;
+    border-top: solid 1px black;
+    width: 40%;
+    height: 1px;
+    position: absolute;
+    left: 30%;
+    top: 16%;
+    z-index: 1;
+  }
+  
+  h1 span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+  }
